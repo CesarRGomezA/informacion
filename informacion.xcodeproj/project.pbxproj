@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0442582347E13400FC92BE /* AgregarContactoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0442572347E13400FC92BE /* AgregarContactoController.swift */; };
 		3DD108392343E8CA00F949AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD108382343E8CA00F949AD /* AppDelegate.swift */; };
 		3DD1083B2343E8CA00F949AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD1083A2343E8CA00F949AD /* ViewController.swift */; };
 		3DD1083E2343E8CA00F949AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1083C2343E8CA00F949AD /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D0442572347E13400FC92BE /* AgregarContactoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarContactoController.swift; sourceTree = "<group>"; };
 		3DD108352343E8CA00F949AD /* informacion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = informacion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD108382343E8CA00F949AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DD1083A2343E8CA00F949AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				3DD108662343EA1300F949AD /* Contacto.swift */,
 				3DD108682343EC3500F949AD /* CeldaContactoController.swift */,
 				3DD1086A2343F73E00F949AD /* EditarContactoController.swift */,
+				3D0442572347E13400FC92BE /* AgregarContactoController.swift */,
 			);
 			path = informacion;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D0442582347E13400FC92BE /* AgregarContactoController.swift in Sources */,
 				3DD108692343EC3500F949AD /* CeldaContactoController.swift in Sources */,
 				3DD1083B2343E8CA00F949AD /* ViewController.swift in Sources */,
 				3DD108392343E8CA00F949AD /* AppDelegate.swift in Sources */,

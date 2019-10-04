@@ -55,6 +55,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         tvContacto.reloadData()
     }
     
+    func agregar(){
+        tvContacto.reloadData()
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "goToEditar" {
             let destino = segue.destination as? EditarContactoController
@@ -63,8 +67,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             
             
         }
+        
+        if segue.identifier == "goToAgregar"{
+            let destino = segue.destination  as? AgregarContactoController
+            
+            contactos.append((Contacto(nombre: "", telefono: "", direccion: "", correo: "", foto: "images (3)")))
+            destino?.contacto = contactos[contactos.count-1]
+            
+            
+            destino?.callbackAgregar = agregar
+
+        }
+        
     }
     
-
+    
+  
+    
 }
 
